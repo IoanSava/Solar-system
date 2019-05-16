@@ -1,4 +1,5 @@
-html, body {
+html, body 
+{
     width: 100%;
     height: 100%;
     background-image: url('../images/background.jpg');
@@ -8,7 +9,8 @@ html, body {
     background-attachment: fixed;
 }
 
-#sun {
+#sun
+{
     position: absolute;
     top: 70%;
     left: 50%;
@@ -16,15 +18,16 @@ html, body {
     width: 200px;
     margin-top: -100px;
     margin-left: -100px;
-	border-color: orange;
-	border-width: 2px;
-	border-style: solid;
-	border-radius: 50%;
-	box-shadow: 0 0 64px yellow;
+    border-color: orange;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    box-shadow: 0 0 64px yellow;
 }
 
-#earth {
-	position: absolute;
+#earth 
+{
+    position: absolute;
     top: 20%;
     left: 20%;
     height: 50px;
@@ -33,8 +36,9 @@ html, body {
     margin-top: -45px;
 }
 
-#mercury {
-	position: absolute;
+#mercury 
+{
+    position: absolute;
     top: 30%;
     left: 30%;
     height: 50px;
@@ -43,8 +47,9 @@ html, body {
     margin-top: -25px;
 }
 
-#venus {
-	position: absolute;
+#venus 
+{
+    position: absolute;
     top: 25%;
     left: 25%;
     height: 50px;
@@ -53,8 +58,9 @@ html, body {
     margin-top: -45px;
 }
 
-#mars {
-	position: absolute;
+#mars 
+{
+    position: absolute;
     top: 16%;
     left: 16%;
     height: 50px;
@@ -63,8 +69,9 @@ html, body {
     margin-top: -65px;
 }
 
-#jupiter {
-	position: absolute;
+#jupiter 
+{
+    position: absolute;
     top: 12%;
     left: 12%;
     height: 50px;
@@ -73,7 +80,8 @@ html, body {
     margin-top: -20px;
 }
 
-#saturn {
+#saturn 
+{
     position: absolute;
     top: 8%;
     left: 8%;
@@ -83,119 +91,122 @@ html, body {
     margin-top: -80px;
 }
 
-#earth-orbit {
+#earth-orbit 
+{
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 40%;
     width: 900px;
     height: 900px;
     margin-top: -200px;
     margin-left: -250px;
-
     -webkit-animation: spin-right 8s linear infinite;
-     -moz-animation: spin-right 8s linear infinite;
-      -ms-animation: spin-right 8s linear infinite;
-       -o-animation: spin-right 8s linear infinite;
-          animation: spin-right 8s linear infinite;
+    -moz-animation: spin-right 8s linear infinite;
+    -ms-animation: spin-right 8s linear infinite;
+    -o-animation: spin-right 8s linear infinite;
+    animation: spin-right 8s linear infinite;
 }
 
-@-webkit-keyframes spin-right {
-  100% {
-    -webkit-transform: rotate(360deg);
-       -moz-transform: rotate(360deg);
+@-webkit-keyframes spin-right 
+{
+    100% 
+    {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
         -ms-transform: rotate(360deg);
-         -o-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }
 
-@keyframes spin-right {
-  100% {
-    -webkit-transform: rotate(360deg);
-       -moz-transform: rotate(360deg);
+@keyframes spin-right 
+{
+    100% 
+    {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
         -ms-transform: rotate(360deg);
-         -o-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }
 
-
-#mercury-orbit {
-	position: absolute;
-    top:50%;
+#mercury-orbit 
+{
+    position: absolute;
+    top: 50%;
     left: 40%;
     width: 900px;
     height: 900px;
     margin-top: -200px;
     margin-left: -250px;
-
     -webkit-animation: spin-right 50s linear infinite;
-     -moz-animation: spin-right 50s linear infinite;
-      -ms-animation: spin-right 50s linear infinite;
-       -o-animation: spin-right 50s linear infinite;
-          animation: spin-right 50s linear infinite;
+    -moz-animation: spin-right 50s linear infinite;
+    -ms-animation: spin-right 50s linear infinite;
+    -o-animation: spin-right 50s linear infinite;
+    animation: spin-right 50s linear infinite;
 }
 
-#venus-orbit {
-	position: absolute;
-    top:50%;
+#venus-orbit 
+{
+    position: absolute;
+    top: 50%;
     left: 40%;
     width: 900px;
     height: 900px;
     margin-top: -200px;
     margin-left: -250px;
-	
     -webkit-animation: spin-right 40s linear infinite;
-     -moz-animation: spin-right 40s linear infinite;
-      -ms-animation: spin-right 40s linear infinite;
-       -o-animation: spin-right 40s linear infinite;
-          animation: spin-right 40s linear infinite;
+    -moz-animation: spin-right 40s linear infinite;
+    -ms-animation: spin-right 40s linear infinite;
+    -o-animation: spin-right 40s linear infinite;
+    animation: spin-right 40s linear infinite;
 }
 
-#mars-orbit {
-	position: absolute;
-    top:50%;
+#mars-orbit 
+{
+    position: absolute;
+    top: 50%;
     left: 40%;
     width: 900px;
     height: 900px;
     margin-top: -200px;
     margin-left: -250px;
-
     -webkit-animation: spin-right 5s linear infinite;
-     -moz-animation: spin-right 5s linear infinite;
-      -ms-animation: spin-right 5s linear infinite;
-       -o-animation: spin-right 5s linear infinite;
-          animation: spin-right 5s linear infinite;
+    -moz-animation: spin-right 5s linear infinite;
+    -ms-animation: spin-right 5s linear infinite;
+    -o-animation: spin-right 5s linear infinite;
+    animation: spin-right 5s linear infinite;
 }
 
-#jupiter-orbit {
-	position: absolute;
-    top:50%;
+#jupiter-orbit 
+{
+    position: absolute;
+    top: 50%;
     left: 40%;
     width: 900px;
     height: 900px;
     margin-top: -200px;
     margin-left: -250px;
-
     -webkit-animation: spin-right 20s linear infinite;
-     -moz-animation: spin-right 20s linear infinite;
-      -ms-animation: spin-right 20s linear infinite;
-       -o-animation: spin-right 20s linear infinite;
-          animation: spin-right 20s linear infinite;
+    -moz-animation: spin-right 20s linear infinite;
+    -ms-animation: spin-right 20s linear infinite;
+    -o-animation: spin-right 20s linear infinite;
+    animation: spin-right 20s linear infinite;
 }
 
-#saturn-orbit {
-	position: absolute;
-    top:50%;
+#saturn-orbit 
+{
+    position: absolute;
+    top: 50%;
     left: 40%;
     width: 900px;
     height: 900px;
     margin-top: -200px;
     margin-left: -250px;
-
     -webkit-animation: spin-right 30s linear infinite;
-     -moz-animation: spin-right 30s linear infinite;
-      -ms-animation: spin-right 30s linear infinite;
-       -o-animation: spin-right 30s linear infinite;
-          animation: spin-right 30s linear infinite;
+    -moz-animation: spin-right 30s linear infinite;
+    -ms-animation: spin-right 30s linear infinite;
+    -o-animation: spin-right 30s linear infinite;
+    animation: spin-right 30s linear infinite;
 }
