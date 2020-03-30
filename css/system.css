@@ -1,5 +1,4 @@
-html, body 
-{
+html, body {
     width: 100%;
     height: 100%;
     background-image: url('../images/background.jpg');
@@ -9,8 +8,7 @@ html, body
     background-attachment: fixed;
 }
 
-#sun
-{
+#sun {
     position: absolute;
     top: 70%;
     left: 50%;
@@ -25,8 +23,7 @@ html, body
     box-shadow: 0 0 64px yellow;
 }
 
-#earth 
-{
+#earth {
     position: absolute;
     top: 20%;
     left: 20%;
@@ -36,8 +33,7 @@ html, body
     margin-top: -45px;
 }
 
-#mercury 
-{
+#mercury {
     position: absolute;
     top: 30%;
     left: 30%;
@@ -47,8 +43,7 @@ html, body
     margin-top: -25px;
 }
 
-#venus 
-{
+#venus {
     position: absolute;
     top: 25%;
     left: 25%;
@@ -58,8 +53,7 @@ html, body
     margin-top: -45px;
 }
 
-#mars 
-{
+#mars {
     position: absolute;
     top: 16%;
     left: 16%;
@@ -69,8 +63,7 @@ html, body
     margin-top: -65px;
 }
 
-#jupiter 
-{
+#jupiter {
     position: absolute;
     top: 12%;
     left: 12%;
@@ -80,8 +73,7 @@ html, body
     margin-top: -20px;
 }
 
-#saturn 
-{
+#saturn {
     position: absolute;
     top: 8%;
     left: 8%;
@@ -91,8 +83,7 @@ html, body
     margin-top: -80px;
 }
 
-#earth-orbit 
-{
+#earth-orbit {
     position: absolute;
     top: 50%;
     left: 40%;
@@ -107,10 +98,8 @@ html, body
     animation: spin-right 8s linear infinite;
 }
 
-@-webkit-keyframes spin-right 
-{
-    100% 
-    {
+@-webkit-keyframes spin-right {
+    100% {
         -webkit-transform: rotate(360deg);
         -moz-transform: rotate(360deg);
         -ms-transform: rotate(360deg);
@@ -119,10 +108,8 @@ html, body
     }
 }
 
-@keyframes spin-right 
-{
-    100% 
-    {
+@keyframes spin-right {
+    100% {
         -webkit-transform: rotate(360deg);
         -moz-transform: rotate(360deg);
         -ms-transform: rotate(360deg);
@@ -131,8 +118,7 @@ html, body
     }
 }
 
-#mercury-orbit 
-{
+#mercury-orbit {
     position: absolute;
     top: 50%;
     left: 40%;
@@ -147,8 +133,7 @@ html, body
     animation: spin-right 50s linear infinite;
 }
 
-#venus-orbit 
-{
+#venus-orbit {
     position: absolute;
     top: 50%;
     left: 40%;
@@ -163,8 +148,7 @@ html, body
     animation: spin-right 40s linear infinite;
 }
 
-#mars-orbit 
-{
+#mars-orbit {
     position: absolute;
     top: 50%;
     left: 40%;
@@ -179,8 +163,7 @@ html, body
     animation: spin-right 5s linear infinite;
 }
 
-#jupiter-orbit 
-{
+#jupiter-orbit {
     position: absolute;
     top: 50%;
     left: 40%;
@@ -195,8 +178,7 @@ html, body
     animation: spin-right 20s linear infinite;
 }
 
-#saturn-orbit 
-{
+#saturn-orbit {
     position: absolute;
     top: 50%;
     left: 40%;
